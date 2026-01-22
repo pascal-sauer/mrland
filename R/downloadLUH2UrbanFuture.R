@@ -55,7 +55,7 @@ downloadLUH2UrbanFuture <- function() {
     utils::download.file(urlArg,
                          filename,
                          mode = "wb",
-                         method = "curl"
+                         method = "curl",
                          extra = paste0("--cacert ", luhCertificate))
     if (md5sum(filename) != md5) {
       warning("md5sum mismatch for ", filename)
