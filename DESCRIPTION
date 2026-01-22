@@ -52,6 +52,7 @@ Imports:
     SPEI,
     stringr,
     terra,
+    tools,
     withr,
     zoo
 Suggests:
